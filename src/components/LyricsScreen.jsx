@@ -142,7 +142,7 @@ export default function LyricsScreen() {
                         transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
                     >
                           <picture>
-                           <source srcSet="/gifs/1.webp" type="image/webp" />
+                           <source srcSet="/gifs/3.webp" type="image/webp" />
                            <img src="/gifs/3.gif" className="w-60" alt="flower" />
                            </picture>
                     </motion.div>
