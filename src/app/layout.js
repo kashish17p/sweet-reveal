@@ -8,7 +8,7 @@ const kalam = Kalam({
 
 export const metadata = {
   title: "Something Special!",
-  description: "A romantic message just for you",
+  description: "A romantic message just for you miss diva",
 };
 
 export default function RootLayout({ children }) {
