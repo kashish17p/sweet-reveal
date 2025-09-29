@@ -141,7 +141,10 @@ export default function LyricsScreen() {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
                     >
-                        <img src="/gifs/3.webp" className="w-60" alt="flower" />
+                          <picture>
+                           <source srcSet="/gifs/1.webp" type="image/webp" />
+                           <img src="/gifs/3.gif" className="w-60" alt="flower" />
+                           </picture>
                     </motion.div>
                     <motion.h2
                         initial={{ opacity: 0, y: 50, scale: 0.8 }}

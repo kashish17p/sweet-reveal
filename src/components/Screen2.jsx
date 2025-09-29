@@ -17,8 +17,11 @@ export default function Screen2({ onNext }) {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, delay: 0.3 }}
                 className="flex items-center justify-center"
-            >
-                <img src="/gifs/2.webp" className="w-40" alt="blushing" />
+            >  
+                  <picture>
+                   <source srcSet="/gifs/2.webp" type="image/webp" />
+                   <img src="/gifs/2.gif" className="w-40" alt="blushing" />
+                   </picture>
             </motion.div>
 
             {/* Center text */}
